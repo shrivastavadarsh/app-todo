@@ -1,0 +1,95 @@
+.app {
+  padding: 5px;
+  margin: 5px;
+  /* background-color: rgb(175, 166, 147); */
+}
+
+.todo {
+  align-items: center;
+  display: flex;
+  font-size: 10px;
+  justify-content: space-between;
+}
+#todoList{
+  padding: 5px;
+  /* margin: 5px; */
+
+  max-width: 50%;
+  float: left;
+  width: 50%;
+  float: left;
+  padding: 20px;
+  /* border: 2px solid red; */
+
+}
+.input{
+  visibility: hidden;
+  
+  background-color: brown;
+  color: green;
+
+}
+.error{
+  visibility:visible;
+  color: #cc3333;
+  font-size: 12px;
+}
+
+
+#DoneList {
+  padding: 5px;
+  word-wrap: break-word;
+
+  /* margin: 5px; */
+  width: 50%;
+  float: right;
+  padding: 20px;
+  /* margin-left: 20px; */
+  /* border: 2px solid red; */
+}
+#rmv{
+  width:100%;
+  text-align: center;
+  color: white;
+  background: #1b682c;
+
+
+
+}
+#submit{
+  width: 100%;
+  background: #42ba96;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 200px; */
+  /* border: 3px solrgb(43, 48, 43)een; */
+}
+#xyz1 {
+  /* background-color: #cc3333; */
+  width: 100%;
+  text-align: center;
+
+  /* word-wrap:normal; */
+    /* border: 3px sol rgb(43, 48, 43) green; */
+    /* background-color: #87ceeb; */
+
+
+
+}
+#xyz {
+  /* background-color: #cc3333; */
+  width: 100%;
+  text-align: center;
+
+  word-wrap:normal;
+    /* border: 3px sol rgb(43, 48, 43) green; */
+    background-color: #87ceeb;
+
+
+
+}
+.tsk{
+  text-align: center;
+}
